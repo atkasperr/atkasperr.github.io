@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Example Google Font (Optional) -->
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+  />
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">My Logo</div>
+    <ul class="nav-links">
+      <li><a href="#home" class="active" onclick="switchTab(event, 'home')">Home</a></li>
+      <li><a href="#about" onclick="switchTab(event, 'about')">About</a></li>
+      <li><a href="#projects" onclick="switchTab(event, 'projects')">Projects</a></li>
+      <li><a href="#contact" onclick="switchTab(event, 'contact')">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content Wrapper -->
+  <div class="content-wrapper">
+    <!-- Home Section -->
+    <section id="home" class="tab-content active">
+      <h1>Welcome!</h1>
+      <p>This is your home section. Write a quick, snappy intro or highlight something awesome here.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="tab-content">
+      <h1>About Me</h1>
+      <p>A short bio or an interesting story about you. You can list your coding skills, education, or passions here.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="tab-content">
+      <h1>Projects</h1>
+      <p>Highlight your key projects. Add images, links to GitHub repos, or live demos.</p>
+      <div class="project-card">
+        <img src="images/sample_project.png" alt="Project Screenshot" />
+        <h2>Sample Project</h2>
+        <p>Short description of what the project does or how you built it.</p>
+      </div>
+      <!-- Add more project-cards as needed -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="tab-content">
+      <h1>Contact Me</h1>
+      <p>Provide your email, social media, or a contact form. Let people know how to reach you.</p>
+    </section>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
