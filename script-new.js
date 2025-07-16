@@ -70,7 +70,8 @@ document.addEventListener('DOMContentLoaded', function() {
             this.style.transform = 'translateX(0)';
         });
     });
-      // Add hover effects to skill tags
+    
+    // Add hover effects to skill tags
     const skills = document.querySelectorAll('.skill');
     
     skills.forEach(skill => {
@@ -84,55 +85,5 @@ document.addEventListener('DOMContentLoaded', function() {
             this.style.background = '#f1f5f9';
             this.style.transform = 'scale(1)';
         });
-    });
-    
-    // Photo modal functionality
-    const modal = document.getElementById('photoModal');
-    const modalImg = document.getElementById('modalImage');
-    const modalText = document.getElementById('modalText');
-    const modalDate = document.getElementById('modalDate');
-    const closeBtn = document.getElementsByClassName('close')[0];
-    const photoImages = document.querySelectorAll('.photo-item img');
-    
-    // Add click event to all photos
-    photoImages.forEach(img => {
-        img.addEventListener('click', function() {
-            modal.style.display = 'block';
-            modalImg.src = this.src;
-            modalImg.alt = this.alt;
-            
-            // Get caption and date from the photo item
-            const photoItem = this.closest('.photo-item');
-            const caption = photoItem.querySelector('.photo-caption p').textContent;
-            const date = photoItem.querySelector('.photo-date').textContent;
-            
-            modalText.textContent = caption;
-            modalDate.textContent = date;
-            
-            // Prevent body scrolling when modal is open
-            document.body.style.overflow = 'hidden';
-        });
-    });
-    
-    // Close modal when clicking the X
-    closeBtn.addEventListener('click', function() {
-        modal.style.display = 'none';
-        document.body.style.overflow = 'auto';
-    });
-    
-    // Close modal when clicking outside the image
-    modal.addEventListener('click', function(event) {
-        if (event.target === modal) {
-            modal.style.display = 'none';
-            document.body.style.overflow = 'auto';
-        }
-    });
-    
-    // Close modal with Escape key
-    document.addEventListener('keydown', function(event) {
-        if (event.key === 'Escape' && modal.style.display === 'block') {
-            modal.style.display = 'none';
-            document.body.style.overflow = 'auto';
-        }
     });
 });

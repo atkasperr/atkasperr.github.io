@@ -3,231 +3,440 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name - Portfolio</title>
+  <title>Andrew Kasper - Portfolio</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Simple Navigation -->
-  <nav class="nav">
-    <div class="container">
-      <h1 class="nav-title">Andrew Kasper</h1>
-      <ul class="nav-links">
-        <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
-        <li><a href="#about" class="nav-link" data-section="about">About</a></li>
-        <li><a href="#timeline" class="nav-link" data-section="timeline">Milestones</a></li>
-        <li><a href="#cv" class="nav-link" data-section="cv">CV</a></li>
-        <li><a href="#publications" class="nav-link" data-section="publications">Publications</a></li>
-        <li><a href="#blog" class="nav-link" data-section="blog">Blog</a></li>
-        <li><a href="#photos" class="nav-link" data-section="photos">Photos</a></li>
-      </ul>
+  <!-- Skip to main content for accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  
+  <!-- Fixed Sidebar -->
+  <aside class="sidebar">
+    <div class="profile">
+      <img src="images/Profile.jpeg" alt="Andrew Kasper" class="profile-photo">
+      <h1>Andrew Kasper</h1>
+      <p class="title">Computer Science & Business Student</p>
+      <p class="university">University of Michigan</p>
     </div>
-  </nav>
+    
+    <div class="contact">
+      <h3>Contact</h3>
+      <div class="contact-item">
+        <span>Email</span>
+        <a href="mailto:atkasper@umich.edu">atkasper@umich.edu</a>
+      </div>
+      <div class="contact-item">
+        <span>LinkedIn</span>
+        <a href="https://www.linkedin.com/in/andrewtkasper/" target="_blank">andrewtkasper</a>
+      </div>
+      <div class="contact-item">
+        <span>GitHub</span>
+        <a href="https://github.com/atkasperr" target="_blank">atkasperr</a>
+      </div>
+    </div>
+      <div class="navigation">
+      <h3>Navigation</h3>
+      <nav>
+        <a href="#about" class="nav-item">About</a>
+        <a href="#cv" class="nav-item">CV</a>
+        <a href="#publications" class="nav-item">Publications</a>
+        <a href="#blog" class="nav-item">Blog</a>
+      </nav>
+    </div>
+  </aside>
 
+  <!-- Right Sidebar for Photos -->
+  <aside class="photos-sidebar">
+    <div class="photos-header">
+      <h3>Recent Photos</h3>
+    </div>
+  <div class="photo-item">
+      <img src="images/ted.JPEG" alt=".">
+      <div class="photo-caption">
+        <p>Teddy 🐶</p>
+        <span class="photo-date">June 2025</span>
+      </div>
+    </div>
+    <div class="photo-item">
+      <img src="images/graduate.JPEG" alt=".">
+      <div class="photo-caption">
+        <p>5/6 of the college house graduate 🥹</p>
+        <span class="photo-date">April 2025</span>
+      </div>
+      </div>
+    <div class="photo-item">
+      <img src="images/tek.jpeg" alt=".">
+      <div class="photo-caption">
+        <p>First Fraternity Retreat</p>
+        <span class="photo-date">April 2025</span>
+      </div>
+    </div>
+      <div class="photo-item">
+        <img src="images/miami.JPEG" alt=".">
+        <div class="photo-caption">
+          <p>Spring Break in Miami</p>
+          <span class="photo-date">March 2025</span>
+        </div>
+      </div>
+        <div class="photo-item">
+      <img src="images/friends.JPEG" alt=".">
+      <div class="photo-caption">
+        <p>Last Gameday for some of my friends</p>
+        <span class="photo-date">November 2024</span>
+      </div>
+    </div>
+
+    <div class="photo-item">
+      <img src="images/gameday.JPEG" alt="University of Michigan campus">
+      <div class="photo-caption">
+        <p>Tailgating at my house</p>
+        <span class="photo-date">November 2024</span>
+      </div>
+    </div>
+    <div class="photo-item">
+      <img src="images/dom.JPG" alt=".">
+      <div class="photo-caption">
+        <p>21st Birthday Party!</p>
+        <span class="photo-date">October 2024</span>
+      </div>
+    </div>
+    <div class="photo-item">
+      <img src="images/michigan.JPEG" alt=".">
+      <div class="photo-caption">
+        <p>First Night Game</p>
+        <span class="photo-date">September 2024</span>
+      </div>
+    </div>
+    <div class="photo-item">
+      <img src="images/mackinac.PNG" alt=".">
+      <div class="photo-caption">
+        <p>Looking onto Lake Michigan.</p>
+        <span class="photo-date">August 2024</span>
+      </div>
+    <div class="photo-item">
+        <img src="images/plane.jpg" alt=".">
+        <div class="photo-caption">
+          <p>West Palm Beach Outbound</p>
+          <span class="photo-date">July 2024</span>
+        </div>
+      </div>
+    <div class="photo-item">
+      <img src="images/stattion.JPG" alt=".">
+      <div class="photo-caption">
+        <p>Reopening Concert of Michigan Central Station</p>
+        <span class="photo-date">June 2024</span>
+      </div>
+    </div>
+    <div class="photo-item">
+      <img src="images/dom.JPG" alt=".">
+      <div class="photo-caption">
+        <p>Sophomore Year Checked Off ✅</p>
+        <span class="photo-date">April 2024</span>
+      </div>
+    </div>
+  </aside>
   <!-- Main Content -->
-  <main class="main">
-    <!-- Home Section -->
-    <section id="home" class="section active">
-      <div class="container">
-        <div class="intro">
-          <h2>Kasper, Andrew</h2>
-          <p class="subtitle">About</p>
-          <p class="description">
-            Incoming senior at the University of Michigan studying Computer Science and Business.
-            <br>
-            <br>
-
-
-            I am a student passionate about finding ways to use technology to simplify and improve people's lives. This is a work in progress. 
-          </p>
-          <a href="#about" class="btn" data-section="about">Learn More</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="section">
-      <div class="container">
+  <main class="main-content">
+    <div class="content-grid">
+      <!-- About Section (Center) -->
+      <section id="about" class="about-section">
         <h2>About Me</h2>
-        <div class="about-content">
-          <p>
-            Write your biography here. Share your background, interests, and what drives you. 
-            Keep it personal but professional.
-          </p>
-          <p>
-            Add more details about your journey, education, or any other relevant information 
-            you'd like people to know about you.
-          </p>
-          
-          <h3>Skills</h3>
-          <ul class="skills-list">
-            <li>Skill 1</li>
-            <li>Skill 2</li>
-            <li>Skill 3</li>
-            <li>Skill 4</li>
-            <li>Skill 5</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+        <p>
+          Incoming Senior at the University of Michigan studying Computer Science and Business.
+        </p>
+        <p>
+          Welcome to my personal webpage! I host my CV, publications, and blog posts here. 
+        </p>
+        <p>
+         I hope one day to use my skills as a leader and professional to make our technology safer, through cybersecurity, regulation, inclusive software design, and more. I am actively involved in research on Artificial Intelligence and its affects on Human-Computer Interaction, ith a focus on non-consensual intimate media (NCIM) and the Digital Millennium Copyright Act (DMCA). My lab's work has been presented at major conferences like ACM/CHI 2025.
+        </p>
+        <p>
+          I am currently an intern at FANUC robotics, the leading and world's largest robotics company, where I am working on software and controls development for industiral and collaborative robots. I am learning and helping impliment important new features for the next generation of FANUC robots, which prioritize worker safety, ease of programming, and predicitve safety protocols. 
 
-    <!-- Timeline Section -->
-    <section id="timeline" class="section">
-      <div class="container">
-        <h2>My Timeline</h2>
+        </p>
+        <p>
+          In my future I hope use my Business skills alongside my Engineering skills to either work and consult groups about sustainable and ethical technology stacks, practices, and policies, or to work in Software Engineering, focusing on security and fullstack development that delivers a product that not only works but meets business goals. 
+        </p>
+        <p>
+          In my free time, I love to run, bike, and hike my beautifiul state of Michigan. I also enjoy working on side projects, such as my arcade cabinet and PC. I have a dog named Teddy who keeps me company. 
+        <!-- Skills Section -->
+        <div class="skills-section">
+          <h3>Skills & Technologies</h3>
+          <div class="skills-grid">
+             <span class="skill">C++</span >
+               <span class="skill">C</span>
+                <span class="skill">.NET</span>
+                 <span class="skill">C#</span>
+                  <span class="skill">CAD</span>
+                   <span class="skill">PLC Programming</span>
+                    <span class="skill">Python</span>
+                     <span class="skill">Ethical Hacking</span>
+                      <span class="skill">Linux</span>
+                       <span class="skill">Fullstack Engineering</span>
+                        <span class="skill">SQLITE/NOSQL</span>
+                         <span class="skill">AWS</span>
+                          <span class="skill">KAREL</span>
+                           <span class="skill">ARM-Based Assembly</span>
+                             <span class="skill">TP Logic (FANUC)</span>
+                              <span class="skill">Javascript</span>
+                               <span class="skill">Next.JS</span>
+                                <span class="skill">React</span>
+                                 <span class="skill">Wireshark</span>
+                                  <span class="skill">MongoDB</span>
+                                   <span class="skill">Business Analysis </span>
+                                    <span class="skill">Motivational and Organizational Science </span>
+                                    <span class="skill">Large Data Sets</span>
+                                     <span class="skill">Technology Consulting</span>
+       
+            <span class="skill">Node.js</span>
+            <span class="skill">Git</span>
+          </div>
+        </div>
+      </section>
+        <!-- Timeline Section (Center below About) -->
+      <section class="timeline-section">
+        <h2>Life Milestones and Timeline</h2>
         <div class="timeline">
           <div class="timeline-item">
             <div class="year">2025</div>
             <div class="content">
-              <h3>Current Position/Achievement</h3>
-              <p>Describe your current role or recent major achievement.</p>
+              <h4>Senior Year</h4>
+              <p>Completing final year at University of Michigan, focusing on advanced CS coursework and capstone projects.</p>
             </div>
           </div>
           
           <div class="timeline-item">
-            <div class="year">2024</div>
+            <div class="year">May. 2025</div>
             <div class="content">
-              <h3>Previous Major Event</h3>
-              <p>Describe a significant event, job change, graduation, or achievement.</p>
+              <h4>Internship at FANUC</h4>
+              <p>I start my internship at FANUC, the world's leading and largest robotics manufactorer as a Software Engineer for the Automation Systems Group</p>
             </div>
           </div>
           
           <div class="timeline-item">
-            <div class="year">2023</div>
+            <div class="year">Jan. & Apr. 2025</div>
             <div class="content">
-              <h3>Another Milestone</h3>
-              <p>Add another important event in your journey.</p>
+              <h4>Accepted and Published- CHI 2025</h4>
+              <p><i>A Law of One's Own: The Inefficacy of the DMCA for Non-Consensual Intimate Media</i> is accepted and published by the ACM. It is presented at the conference.</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="year">Sept. 2024</div>
+            <div class="content">
+              <h4>Submitted Research Papers</h4>
+              <p>Two papers I Co-authored, <i>Reporting Non-Consensual Intimate Media: An Audit Study of Deepfakes</i> and <i>A Law of One's Own: The Inefficacy of the DMCA for Non-Consensual Intimate Media</i> are submitted for preprint and to ACM's CHI 2025 Conference in Japan.</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="year">Aug. 2024</div>
+            <div class="content">
+              <h4>Junior Year and President of TEK</h4>
+              <p>I start my junior year and I become the President of Tau Epsilon Kappa, the professional fraternity who supported my upbringing as an ambitious student on campus.</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="year">May. 2024</div>
+            <div class="content">
+              <h4>Internship at EarthBrands</h4>
+              <p>I work a hybrid internship for Earthbrands, a NYC company looking to revolutionize sustainable packaging/cups for Social Scenes. I work on their all digital SaaS shopping experience.</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="year">Mar. 2024</div>
+            <div class="content">
+              <h4>Joining the Social Computing Lab</h4>
+              <p>I am hired as a research assistant under Dr. Eric Gilbert and Qiwei Li, Doctoral Candiate. I focus my efforts on writing code to aid large data gathering and automation, and I research AI models and their effects.</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="year">Aug. 2023</div>
+            <div class="content">
+              <h4>Sophomore Year</h4>
+              <p>Start my second year at Michigan</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="year">Aug. 2022</div>
+            <div class="content">
+              <h4>University of Michigan</h4>
+              <p>Started my freshman year at UofM. Selected to join Tau Epsilon Kappa, the technology and engineering co-ed fraternity. 〽️</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="year">Mar. 2019</div>
+            <div class="content">
+              <h4>Boy Scouts of America</h4>
+              <p>Earned my Eagle Scout Rank, the BSA's highest honor. Named the 2022 Eagle Scout of the Year in the State of Michigan 3 years later for my service to the community.</p>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- CV Section -->
+      </section>
+    </div>    <!-- Additional Sections -->
     <section id="cv" class="section">
-      <div class="container">
-        <h2>CV</h2>
+      <div class="section-content">
+        <h2>Curriculum Vitae</h2>
         
         <div class="cv-section">
           <h3>Education</h3>
           <div class="cv-item">
-            <h4>Degree Name</h4>
-            <p><strong>University Name</strong> - Year</p>
-            <p>Brief description or notable achievements</p>
+            <h4>Bachelor of Science in Computer Science</h4>
+            <p><strong>University of Michigan, School of Literature, Science, and Arts</strong> - Expected April 2026</p>
+            <p><strong>Minor:</strong> Business Administration, Ross School of Business</p>
+            <p><strong>GPA:</strong> 3.5/4.00</p>
+            <p><strong>Honors & Awards:</strong> Residence Hall Leader of the Year, Dean's List, Student Life Groundbreaker</p>
+            <p><strong>Scholarships:</strong> University Leadership Grant, Research Fellowship</p>
           </div>
         </div>
         
         <div class="cv-section">
           <h3>Experience</h3>
           <div class="cv-item">
-            <h4>Job Title</h4>
-            <p><strong>Company Name</strong> - Year - Year</p>
+            <h4>Research Assistant, Development</h4>
+            <p><strong>University of Michigan School of Information</strong> - June 2024 – Present | Ann Arbor, MI</p>
             <ul>
-              <li>Key responsibility or achievement</li>
-              <li>Another important contribution</li>
-              <li>Notable project or result</li>
+              <li>Develop and research new AI models, focusing on manipulation of Large Language Models (LLMs) for specialized uses</li>
+              <li>Implement experimental solutions to combat AI content moderation techniques and test the strength of publicly available moderation on mass information sources</li>
+              <li>Contribute to research articles with publication pending while adhering to strict confidentiality agreements</li>
+            </ul>
+          </div>
+          
+          <div class="cv-item">
+            <h4>Software Engineer Intern</h4>
+            <p><strong>Earth Brands Inc.</strong> - May 2024 – August 2024 | Hybrid, New York, NY</p>
+            <ul>
+              <li>Deployed software focused on automatic custom invoicing and order processing, connecting the company's e-commerce platform with domestic production facilities and warehouses for real-time inventory management</li>
+              <li>Implemented data synchronization protocols, reducing lead times for expedited custom orders and automated sales workflows to minimize return rates</li>
+              <li>Contributed to the design and implementation of the new company webstore, 'earthstore', integrating dynamic elements to enhance user experience and engagement</li>
+            </ul>
+          </div>
+          
+          <div class="cv-item">
+            <h4>Junior Software Engineer</h4>
+            <p><strong>The Michigan Daily</strong> - Jan 2024 – June 2024 | Ann Arbor, MI</p>
+            <ul>
+              <li>Contributed to mobile app updates and general website functionality, including new games section additions</li>
+              <li>Spearheaded development and research with Michigan Daily's geo-mapping software for geographic article mapping</li>
+            </ul>
+          </div>
+          
+          <div class="cv-item">
+            <h4>Software Developer, Display Software</h4>
+            <p><strong>SPARK Electric Racing</strong> - Aug. 2023 – Jan. 2024 | Ann Arbor, MI</p>
+            <ul>
+              <li>Worked on the development and testing of a TFT display for the electric motorcycle project FBS</li>
+              <li>Developed data processing pipelines to convert electrical system outputs into user-friendly formats for real-time monitoring and post-race evaluations</li>
             </ul>
           </div>
         </div>
         
         <div class="cv-section">
-          <h3>Awards</h3>
+          <h3>Leadership & Professional Development</h3>
           <div class="cv-item">
-            <h4>Award Name</h4>
-            <p><strong>Organization</strong> - Year</p>
-            <p>Brief description</p>
+            <h4>President</h4>
+            <p><strong>Tau Epsilon Kappa (TEK), Technological Professional Fraternity</strong> - Sept. 2022 – Present | Ann Arbor, MI</p>
+            <ul>
+              <li>Oversee planning and execution of events, projects, and alumni relations events of the fraternity</li>
+              <li>Facilitate workshops, lectures, hackathons, and collaborations with various groups across campus and alumni to expand the professional network of TEK's members</li>
+            </ul>
+          </div>
+          
+          <div class="cv-item">
+            <h4>Advisor of Finance</h4>
+            <p><strong>Residence Halls Association</strong> - Apr. 2023 – April 2024 | Ann Arbor, MI</p>
+            <ul>
+              <li>Oversaw the financial operations of the Residence Halls Association of the University of Michigan</li>
+              <li>Advised and managed a budget of $600,000 for over 20 Hall Council and Student Groups</li>
+            </ul>
+          </div>
+          
+          <div class="cv-item">
+            <h4>Eagle Scout, Adult Leader</h4>
+            <p><strong>Troop 271, Michigan Crossroads Council</strong> - Mar. 2019 - Present | Livonia, MI</p>
+            <ul>
+              <li>Achieved the rank of Eagle Scout, the highest honor in the Boy Scouts of America</li>
+              <li>Advise prospective Eagle Scouts on their journey to Eagle</li>
+              <li>Active adult leader for the Mackinac Island Scout Service Camp, Honors Guard Program</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="cv-section">
+          <h3>Technical Skills</h3>
+          <div class="cv-item">
+            <h4>Tools</h4>
+            <p>Git, QT, Flutter, MUI, Microsoft Office, G-suite, WordPress, Final Cut Pro, Canva, Figma, AWS, VS Code, Azure</p>
+          </div>
+          <div class="cv-item">
+            <h4>Technical Concepts</h4>
+            <p>Data Structures and Algorithms, Object Oriented Programming, Graphical User Interface design, Computational Complexity, Functional Programming Languages, RNN, LLMs, Shell Scripting, Machine learning, Artificial Intelligence</p>
+          </div>
+          <div class="cv-item">
+            <h4>Frameworks/Languages</h4>
+            <p>C++/C, Python, Swift, JavaScript, R, HTML, CSS, Svelte, Next.JS, TensorFlow, React, .NET, Dart</p>
           </div>
         </div>
         
         <div class="cv-download">
-          <a href="files/your-cv.pdf" class="btn" download>Download Full CV</a>
+          <a href="files/Andrew_Kasper_Resume_Fall.pdf" class="btn" download>Download Full CV</a>
         </div>
       </div>
-    </section>
-
-    <!-- Publications Section -->
-    <section id="publications" class="section">
-      <div class="container">
+    </section>    <section id="publications" class="section">
+      <div class="section-content">
         <h2>Publications</h2>
         
         <div class="publication">
           <h3>A Law of One's Own: The Inefficacy of the DMCA for Non-Consensual Intimate Media</h3>
           <p class="authors">Li Qiwei, Shihui Zhang, Samantha Paige Pratt, Andrew Timothy Kasper, Eric Gilbert, Sarita Schoenebeck</p>
           <p class="venue">ACM/CHI 2025, 2024</p>
-          <p>Non-consensual intimate media (NCIM) presents internet-scale
-              harm to individuals who are depicted. One of the most powerful
-              tools for requesting its removal is the Digital Millennium Copyright
-              Act (DMCA). However, the DMCA was designed to protect copyright holders rather than to address the problem of NCIM. Using
-              a dataset of more than 54,000 DMCA reports and over 85 million
-              infringing URLs spanning over a decade, this paper evaluates the
-              efficacy of the DMCA for NCIM takedown. Results show that for
-              non-commercial requests, while more than half of URLs are deindexed from Google Search within 48 hours, the actual removal of
-              content from website hosts is much slower. The median infringing
-              URL takes more than 45 days to be removed from website hosts, and
-              only 5.39% URLs are removed within the first 48 hours. Additionally,
-              the most frequently reported domains for non-commercial NCIM
-              are smaller websites, not large platforms. We stress the need for new
-              laws that ensure a shorter time to takedown that are enforceable
-              across big and small platforms alike.
-          </p>
-          <p><a href="https://dl.acm.org/doi/10.1145/3706598.3713334 " class="link">View Paper</a></p>
+          <p>Non-consensual intimate media (NCIM) presents internet-scale harm to individuals who are depicted. This paper evaluates the efficacy of the DMCA for NCIM takedown using a dataset of more than 54,000 DMCA reports and over 85 million infringing URLs spanning over a decade. Results show significant delays in content removal from website hosts, highlighting the need for new laws ensuring shorter takedown times.</p>
+          <p><a href="https://dl.acm.org/doi/10.1145/3706598.3713334" class="link">View Paper</a></p>
         </div>
         
         <div class="publication">
           <h3>Reporting Non-Consensual Intimate Media: An Audit Study of Deepfakes</h3>
           <p class="authors">Li Qiwei, Shihui Zhang, Andrew Timothy Kasper, Joshua Ashkinaze, Asia A Eaton, Sarita Schoenebeck, Eric Gilbert</p>
-         
-          <p>Non-consensual intimate media (NCIM) inflicts significant harm. Currently, victim-survivors can use two mechanisms to report NCIM - as a non-consensual nudity violation or as copyright infringement. We conducted an audit study of takedown speed of NCIM reported to X (formerly Twitter) of both mechanisms. We uploaded 50 AI-generated nude images and reported half under X's "non-consensual nudity" reporting mechanism and half under its "copyright infringement" mechanism. The copyright condition resulted in successful image removal within 25 hours for all images (100% removal rate), while non-consensual nudity reports resulted in no image removal for over three weeks (0% removal rate). We stress the need for targeted legislation to regulate NCIM removal online. We also discuss ethical considerations for auditing NCIM on social platforms.
-</p>
+          <p class="venue">arXiv preprint, 2024</p>
+          <p>We conducted an audit study of takedown speed of NCIM reported to X (formerly Twitter) comparing two reporting mechanisms. The copyright condition resulted in 100% removal rate within 25 hours, while non-consensual nudity reports resulted in 0% removal rate over three weeks, highlighting the need for targeted legislation.</p>
           <p><a href="https://arxiv.org/abs/2409.12138" class="link">View Paper</a></p>
         </div>
       </div>
-    </section>
-
-    <!-- Blog Section -->
-    <section id="blog" class="section">
-      <div class="container">
+    </section>    <section id="blog" class="section">
+      <div class="section-content">
         <h2>Blog</h2>
         
         <div class="blog-post">
-          <h3><a href="blog/post-1.html">Your First Blog Post Title</a></h3>
-          <p class="date">December 15, 2024</p>
-          <p>Write a brief excerpt from your blog post here. This should give readers a taste of what they'll find in the full post.</p>
+          <h3><a href="blog/post-1.html">Reflections on Research and Technology Policy</a></h3>
+          <p class="date">March 15, 2025</p>
+          <p>Thoughts on how technology research can inform better policy decisions and the importance of interdisciplinary collaboration in addressing online safety challenges.</p>
         </div>
         
         <div class="blog-post">
-          <h3><a href="blog/post-2.html">Another Interesting Post</a></h3>
-          <p class="date">December 10, 2024</p>
-          <p>Another blog post excerpt. You can write about your experiences, insights, or anything else you'd like to share.</p>
+          <h3><a href="blog/post-2.html">Building a Portfolio Website</a></h3>
+          <p class="date">January 10, 2025</p>
+          <p>My experience creating this portfolio website and lessons learned about web development, design principles, and presenting academic work online.</p>
         </div>
       </div>
-    </section>
+    </section>  </main>
 
-    <!-- Photos Section -->
-    <section id="photos" class="section">
-      <div class="container">
-        <h2>Photos</h2>
-        <div class="photo-grid">
-          <div class="photo">
-            <img src="images/photo1.jpg" alt="Photo description">
-            <p>Photo caption</p>
-          </div>
-          <div class="photo">
-            <img src="images/photo2.jpg" alt="Photo description">
-            <p>Another photo caption</p>
-          </div>
-          <div class="photo">
-            <img src="images/photo3.jpg" alt="Photo description">
-            <p>Photo from an event</p>
-          </div>
-          <div class="photo">
-            <img src="images/photo4.jpg" alt="Photo description">
-            <p>Personal photo</p>
-          </div>
-        </div>
+  <!-- Photo Modal -->
+  <div id="photoModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <img id="modalImage" src="" alt="">
+      <div class="modal-caption">
+        <p id="modalText"></p>
+        <span id="modalDate"></span>
       </div>
-    </section>
-  </main>
+    </div>
+  </div>
 
   <!-- Simple Footer -->
   <footer class="footer">

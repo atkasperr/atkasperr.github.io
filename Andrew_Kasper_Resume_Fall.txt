@@ -1,0 +1,190 @@
+. 
+Andrew T. Kasper 
+37286 Bennett St. Livonia, MI 48152 │ atkasper@umich.edu │ 734-658-4044│ www.linkedin.com/in/andrewtkasper  
+ 
+EDUCATION  
+University of Michigan  
+ 
+ 
+ 
+ 
+        
+              Expected Graduation: April 2026  
+Major: B.S, Computer Science, School of Literature, Science, and Arts 
+ 
+ 
+ 
+                              GPA: 3.5/4.00  
+Minor: Business Administration, Ross School of Business 
+ 
+ 
+             
+Honors & Awards: Residence Hall Leader of the Year, Dean’s List, Student Life Groundbreaker 
+ 
+ 
+ 
+ 
+Scholarships: University Leadership Grant, Research Fellowship     
+TECHNICAL SKILLS  
+Tools:  Git, QT, Flutter, MUI, Microsoft Office, G-suite, WordPress, Final Cut Pro, Canva, Figma, AWS, VS Code, Azure 
+Technical Concepts: Data Structures and Algorithms, Object Oriented Programming, Graphical User Interface design, Computational             
+Complexity, Functional Programming Languages, RNN, LLMs, Shell Scripting, Machine learning, Artificial Intelligence  
+Frameworks/Languages: C++/C, Python, Swift, JavaScript, R, HTML, CSS, Svelte, Next.JS, TensorFlow, React, .NET, Dart, 
+EXPERIENCE  
+University of Michigan School of Information 
+ 
+ 
+                    
+              June 2024 – Present 
+Research Assistant, Development  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ann Arbor, MI 
+§ 
+Develop and research of new AI models, focusing on manipulation of Large Language Models (LLMs) for specialized uses 
+§ 
+Implement experimental solutions to combat AI content moderation techniques and test the strength of publicly available 
+moderation on mass information sources 
+§ 
+Contribute to research articles with publication pending while adhering to strict confidentiality agreements 
+Earth Brands Inc. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      May 2024 – August 2024 
+Software Engineer Intern  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Hybrid, New York, NY 
+§ 
+Deployed software focused on automatic custom invoicing and order processing, connecting the company' e-commerce 
+platform with domestic production facilities and warehouses for real-time inventory management and production 
+adjustments 
+§ 
+Implemented data synchronization protocols, reducing lead times for expedited custom orders as well as automated sales 
+workflows to minimize custom order return rates and enhance order accuracy 
+§ 
+Contributed to the design and implementation of the new company webstore, ‘earthstore’, integrating dynamic elements to 
+enhance user experience and engagement, effectively improving customer interaction and retention rates 
+The Michigan Daily  
+ 
+ 
+          
+ 
+ 
+ 
+            Jan 2024 – June 2024 
+Junior Software Engineer  
+ 
+ 
+ 
+ 
+ 
+ 
+                                   Ann Arbor, MI 
+§ 
+Contributed to mobile app updates and general website functionality, including new games section additions 
+§ 
+Spearheaded development and research with Michigan Daily’s geo-mapping software for geographic article mapping 
+SPARK Electric Racing  
+ 
+ 
+          
+ 
+ 
+ 
+           Aug. 2023 – Jan. 2024 
+Software Developer, Display Software 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Ann Arbor, MI 
+§ 
+Worked on the development and testing of a TFT display for the electric motorcycle project FBS 
+§ 
+Developed data processing pipelines to convert electrical system outputs into user-friendly formats for real-time monitoring 
+and post-race evaluations, including real-time adjustments to power levels and traction control 
+LEADERSHIP & PROFESSIONAL DEVELOPMENT 
+Tau Epsilon Kappa (TEK), Technological Professional Fraternity  
+ 
+            Sept. 2022 – Present 
+President  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                       Ann Arbor, MI 
+§ 
+Oversee planning and execution of events, projects, and alumni relations events of the fraternity  
+§ 
+Facilitate workshops, lecturers, hackathons, and collaborations with various groups across campus and alumni to expand 
+the professional network of TEK’s members 
+Residence Halls Association 
+ 
+ 
+ 
+ 
+ 
+                      Apr. 2023 – April 2024 
+Advisor of Finance 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                        Ann Arbor, MI 
+§ 
+Oversaw the financial operations of the Residence Halls Association of the University of Michigan  
+§ 
+Advised and managed a budget of $600,000 for over 20 Hall Council and Student Groups 
+Eagle Scout, Adult Leader           
+ 
+ 
+ 
+ 
+ 
+ 
+Mar. 2019 - Present 
+Troop 271, Michigan Crossroads Council 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                  Livonia, MI 
+§ 
+Achieved the rank of Eagle Scout, the highest honor in the Boy Scouts of America 
+§ 
+Advise prospective Eagle Scouts on their journey to Eagle  
+§ 
+Active adult leader for the Mackinac Island Scout Service Camp, Honors Guard Program  
